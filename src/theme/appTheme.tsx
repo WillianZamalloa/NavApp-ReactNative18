@@ -1,5 +1,9 @@
 import { StyleSheet } from "react-native";
 
+export const colores = {
+    primary: '#5856D6'
+}
+
 
 export const styles = StyleSheet.create({
 
@@ -32,6 +36,16 @@ export const styles = StyleSheet.create({
         width: 150,
         height: 150,
         borderRadius: 100
+    },
+    menuContainer: {
+        marginVertical: 30,
+        marginHorizontal: 50
+    },
+    menuBoton: {
+        marginVertical: 10
+    },
+    menuTexto: {
+        fontSize: 20
     }
     
 });

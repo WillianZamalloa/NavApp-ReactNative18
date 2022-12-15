@@ -4,6 +4,7 @@ import { MenuLateralBasico } from "./src/navigator/MenuLateralBasico";
 import { StackNavigator } from "./src/navigator/StackNavigator";
 import React from 'react';
 import { MenuLateral } from "./src/navigator/MenuLateral";
+import { Tabs } from './src/navigator/Tabs'
 
 const App = () => {
   
@@ -12,6 +13,7 @@ const App = () => {
       {/* <StackNavigator /> */}
       {/* <MenuLateralBasico /> */}
       <MenuLateral />
+      {/* <Tabs /> */}
     </NavigationContainer>
   );
 };
